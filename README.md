@@ -1,5 +1,7 @@
-# Een bericht van Adesh
+# Voor mama — van Adesh
 
 Persoonlijk bericht voor mama — te lezen en te beluisteren.
 
-**Deelbare link:** https://kapoga0508.github.io/
+**Deel deze link:** https://kapoga0508.github.io/voor-mama/
+
+In WhatsApp verschijnt de titel: **Voor mama — van Adesh**
