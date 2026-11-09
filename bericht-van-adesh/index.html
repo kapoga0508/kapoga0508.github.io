@@ -161,7 +161,7 @@ footer{margin-top:3rem;text-align:center;color:var(--muted);font-size:.85rem}
 <button class="skipbtn" id="fwd" type="button" aria-label="15 seconden vooruit">15 s ↻</button>
 </div>
 <p class="status" id="status" role="status" aria-live="polite"></p>
-<p class="fallback">Werkt het afspelen niet? <a href="https://drive.google.com/file/d/190zK_fKNvF8tRTHbspkOaIa6EfpGRtCj/view" target="_blank" rel="noopener">Open het bericht in Google Drive<span class="sr"> (opent in een nieuw venster)</span></a></p>
+<p class="fallback">Werkt het afspelen niet? <a href="https://drive.google.com/file/d/1FYAt-W-CYaam5Xwf9P7jOr2MNfyOef5e/view?usp=drivesdk" target="_blank" rel="noopener">Open het bericht in Google Drive<span class="sr"> (opent in een nieuw venster)</span></a></p>
 </section>
 
 <div class="divider" aria-hidden="true">✦</div>
@@ -249,7 +249,7 @@ footer{margin-top:3rem;text-align:center;color:var(--muted);font-size:.85rem}
   function setState(p){body.classList.toggle('is-playing',p);
     btn.setAttribute('aria-label',p?'Pauzeer het bericht':'Speel het bericht af');
     mbtn.setAttribute('aria-label',p?'Pauzeer':'Speel af');btn.setAttribute('aria-pressed',p?'true':'false');}
-  var PARTS=6,ready=false,want=false,failed=false,got=0;
+  var PARTS=14,ready=false,want=false,failed=false,got=0;
   function start(){st.textContent='';var pr=a.play();if(pr&&pr.catch)pr.catch(function(e){
       st.textContent=(e&&e.name==='NotAllowedError')?'Tik op de afspeelknop om te luisteren.':'Afspelen lukt hier niet. Gebruik de link hieronder.'})}
   function b64(t){var bin=atob(t.replace(/\s+/g,'')),n=bin.length,u=new Uint8Array(n);for(var i=0;i<n;i++)u[i]=bin.charCodeAt(i);return u}
